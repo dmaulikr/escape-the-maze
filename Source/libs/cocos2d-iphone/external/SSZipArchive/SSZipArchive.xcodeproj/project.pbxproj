@@ -110,7 +110,7 @@
 		210D525117DEFB880060D41A /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
 		210D525217DEFB880060D41A /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
 		210D525317DEFB880060D41A /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
-		21CC41A517DB7D1300201DDC /* SSZipArchive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = SSZipArchive.app; path = SSZipArchiveExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21CC41A517DB7D1300201DDC /* SSZipArchiveExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSZipArchiveExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21CC41A817DB7D1300201DDC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		21CC41AA17DB7D1300201DDC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		21CC41AC17DB7D1300201DDC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -221,7 +221,7 @@
 		21CC41A617DB7D1300201DDC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				21CC41A517DB7D1300201DDC /* SSZipArchive.app */,
+				21CC41A517DB7D1300201DDC /* SSZipArchiveExampleApp.app */,
 				21CC41C017DB7D1300201DDC /* SSZipArchiveTests.xctest */,
 				83409DCE19D5B65B004B7EB9 /* libSSZipArchive.a */,
 				83409DDB19D5B65C004B7EB9 /* SSZipArchiveTests.xctest */,
@@ -381,7 +381,7 @@
 			);
 			name = SSZipArchiveExampleApp;
 			productName = SSZipArchive;
-			productReference = 21CC41A517DB7D1300201DDC /* SSZipArchive.app */;
+			productReference = 21CC41A517DB7D1300201DDC /* SSZipArchiveExampleApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 		21CC41BF17DB7D1300201DDC /* SSZipArchiveTests */ = {
